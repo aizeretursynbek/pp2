@@ -1,7 +1,26 @@
-_qw2=3
-2qw_=4
-#variable can not start with number, only letter and _
-qw$=5
-# also variable can contain only A-z, 0-9, and _
-import=5
-# we can not use python keywords as variable name
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+  
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+  #The else block will NOT be executed if the loop is stopped by a break statement
+
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
