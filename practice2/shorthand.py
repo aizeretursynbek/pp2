@@ -1,0 +1,1 @@
+print("i love coding") print ("me too")#Invalid syntax, separate them with ";"
